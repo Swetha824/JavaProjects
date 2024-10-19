@@ -12,6 +12,7 @@ public class SelIntroduction {
 		driver.get("https://rahulshettyacademy.com/");
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
 		driver.quit();
 	}
 
